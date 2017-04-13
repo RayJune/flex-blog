@@ -22,14 +22,9 @@ gulp.task('sass', function(){
       .pipe(gulp.dest('../styles'));
 });
 
-gulp.task('cp', function(){
-  gulp.src('index.html')
-      .pipe(gulp.dest('..'));
-});
-
 gulp.task('watch', function(){
-  gulp.watch(['*.html'], ['cp']);
+  gulp.watch(['**/*.html'], ['build']);
   gulp.watch(['styles/*.scss'], ['sass']);
 })
 
-gulp.task('default', ['sass', 'cp', 'watch']);
+gulp.task('default', ['sass', 'build', 'watch']);
