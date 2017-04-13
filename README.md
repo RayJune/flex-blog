@@ -1,2 +1,1 @@
-# flex-rayjune
-rayjune.xyz的flex版本
+# 摩登前端课程 demo
