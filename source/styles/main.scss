@@ -118,11 +118,10 @@ a {
   flex-grow: 1;
   line-height: 1.8;
   padding: 16px;
-  overflow-y: scroll;
 }
 
 .app-footer {
-  height: 46px;
+  height: 56px;
   flex-shrink: 0;
   display: flex;
   background-color: $primary-color;
@@ -131,14 +130,14 @@ a {
     padding: 5px;
     text-align: center;
     color: rgba(0,0,0,0.5);
-    border-left: 2px solid rgba(0,0,0,0.1);
+    border-left: 1px solid rgba(0,0,0,0.1);
     flex-grow: 1;
     &:first-child {
       border-left: 0;
     }
     i {
       display: block;
-      font-size: 15px;
+      font-size: 18px;
       color: white;
       text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
       padding-bottom: 6px;
